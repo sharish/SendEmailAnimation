@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/text_card"
+    android:id="@+id/lyt_card"
+    android:padding="@dimen/padding_normal">
+
+    <EditText
+        android:id="@+id/email_to_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_to_field"
+        android:text="@string/support_email"
+        android:inputType="textEmailAddress"
+        android:enabled="false"
+        android:padding="@dimen/padding_normal" />
+
+    <EditText
+        android:id="@+id/email_subject_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|left"
+        android:hint="@string/subject"
+        android:singleLine="true"
+        android:padding="@dimen/padding_normal"
+        android:textColor="@android:color/black"
+        android:inputType="textEmailSubject"
+
+        />
+
+
+    <EditText
+        android:id="@+id/email_msg_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|left"
+        android:hint="@string/msg_box"
+        android:inputType="textMultiLine"
+        android:minLines="6"
+        android:padding="@dimen/padding_normal"
+        android:textColor="@android:color/black"
+
+        />
+
+    <Button
+        android:id="@+id/send_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/send" />
+
+</LinearLayout>

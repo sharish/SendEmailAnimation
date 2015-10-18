@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/mailing_base"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true">
+
+        <FrameLayout
+            android:id="@+id/envelope_back_card"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/img_envelope_back"
+            android:visibility="gone"
+
+            />
+
+        <RelativeLayout
+            android:id="@+id/envelope_flap_container"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="100dp"
+            android:visibility="gone">
+
+            <View
+                android:id="@+id/flap_open"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/img_flap_opened" />
+
+
+            <View
+                android:id="@+id/flap_close"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/img_flap_closed"
+                android:visibility="gone" />
+
+
+        </RelativeLayout>
+
+        <include
+            layout="@layout/lyt_email_compose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:padding="10dp" />
+
+        <FrameLayout
+            android:id="@+id/envelope_front_card"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/img_envelope_front"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
