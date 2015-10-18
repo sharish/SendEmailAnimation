@@ -4,11 +4,11 @@ This is a small attempt to attract users when they are using in app feature to s
 
 ##### Why to use?
 
--An user having used multiple applications is bored to see the traditional loading indicator, would always prefer to see something new and providing such user experience helps to retain users. 
+- An user having used multiple applications is bored to see the traditional loading indicator, would always prefer to see something new and providing such user experience helps to retain users. 
 
--There are cases where users may not like the idea of taking them to email client app(passing an SEND_TO action intent) since the users do not like to promote an app feature from his direct email account. 
+- There are cases where users may not like the idea of taking them to email client app(passing an SEND_TO action intent) since the users do not like to promote an app feature from his direct email account. 
 
--More often users do not return to the origin application that took him to email client app as they become busy reading the other emails - leads to fall in user engagement.
+- More often users do not return to the origin application that took him to email client app as they become busy reading the other emails - leads to fall in user engagement.
 
 ##### How to Use?
 
@@ -33,6 +33,7 @@ Note: Email subject and message field validations are not done, it is left to yo
 
 ##### How it looks?
 
+![sendemailanimation](https://cloud.githubusercontent.com/assets/13122232/10564092/9f6f8be0-75c3-11e5-94bd-801aef62c529.gif)
 
 
 ##### LICENSE:
