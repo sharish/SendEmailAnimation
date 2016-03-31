@@ -31,6 +31,11 @@ Have overriding onActivityResult in your calling activity to get the email subje
 
 Note: Email subject and message field validations are not done, it is left to your choice of handling and you are free to edit the source.
 
+##### Realtime Email:
+
+To send a real time email along with this animation over mailgun.com server, refer these steps : [SendEmail.md](https://gist.github.com/cooltechworks/701487ac01841433ffd5)
+
+
 ##### How it looks?
 
 ![sendemailanimation](https://cloud.githubusercontent.com/assets/13122232/10564092/9f6f8be0-75c3-11e5-94bd-801aef62c529.gif)
